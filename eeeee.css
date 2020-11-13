@@ -31,11 +31,11 @@
     margin:0;
     padding:10px 25px;
     border:5px solid
-    color: white;
+    outline-color: white;
 }
 .rickey {
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-black;
+outline-color: black;
 }
