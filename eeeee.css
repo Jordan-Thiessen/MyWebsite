@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family-Roboto');
 
 body {
-    background-color: black;
+    background-color: white;
 }
     p {
     font-family: "roboto"; font-size: 22px;
-    color: white;
 }
     h1 {
     font-family: 'roboto';
     font-size: 40px;
-    color: white;
 }
     h2 {
     font-size: 60px; 
     text-align: center;
     font-family: 'roboto';
-    color: white;
 }
     .myBox {
     border: black;
@@ -25,7 +22,6 @@ body {
     width: 440px;
     height: 250px;
     overflow: auto;
-        color: white;
 }
     .outsideLine {
     width:1850px;
