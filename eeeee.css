@@ -9,13 +9,13 @@
     h1 {
     font-family: 'roboto';
     font-size: 40px;
-        color: white;
+    white;
 }
     h2 {
     font-size: 60px; 
     text-align: center;
     font-family: 'roboto';
-    color: white;
+    white;
 }
     .myBox {
     border: black;
@@ -31,7 +31,7 @@
     margin:0;
     padding:10px 25px;
     border:5px solid
-        color: white;
+    white;
 }
 .rickey {
 display: flex;
