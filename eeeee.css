@@ -8,20 +8,20 @@ body {
     color: white;
 }
     h1 {
-    font-family: "roboto";
+    font-family: 'roboto';
     font-size: 40px;
     color: white;
 }
     h2 {
     font-size: 60px; 
     text-align: center;
-    font-family: "roboto";
+    font-family: 'roboto';
     color: white;
 }
     .myBox {
     border: black;
     padding: 5px;
-    font: 24px/36px "roboto";
+    font: 24px/36px 'roboto';
     width: 440px;
     height: 250px;
     overflow: auto;
@@ -40,5 +40,5 @@ justify-content: space-evenly;
     border: black;
 }
 .socialMedia {
-font-family: "roboto";
+font-family: 'roboto';
 }
