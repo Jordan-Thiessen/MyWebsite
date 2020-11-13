@@ -14,7 +14,7 @@ body {
     h2 {
     font-size: 60px; 
     text-align: center;
-    font-family: 'roboto';
+    font-family: var(--Roboto);
 }
     .myBox {
     border: black;
