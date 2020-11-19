@@ -22,11 +22,13 @@
     p {
     font-family: 'roboto'; font-size: 22px;
     color: white;
+    padding: 10px;
 }
     h1 {
     font-family: 'roboto';
     font-size: 40px;
     color: white;
+    padding: 10px;
 }
     h2 {
     font-size: 60px; 
@@ -36,7 +38,7 @@
 }
     .myBox {
     border: black;
-    padding: 5px;
+    padding: 10px;
     font: 24px/36px 'Roboto';
     width: 440px;
     height: 250px;
