@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-:root {
-    --Roboto: 'Roboto';
-}
-body {
-    background-color: white;
+    body {
+    background-color: black;
 }
     p {
-    font-family: "roboto"; font-size: 22px;
+    font-family: 'roboto'; font-size: 22px;
 }
     h1 {
     font-family: 'roboto';
@@ -16,28 +12,20 @@ body {
     h2 {
     font-size: 60px; 
     text-align: center;
-    font-family: var(--Roboto);
+    font-family: 'roboto';
 }
     .myBox {
     border: black;
     padding: 5px;
-    font: 24px/36px 'roboto';
-    width: 440px;
+    font: 24px/36px 'Roboto';
+    width: 450px;
     height: 250px;
-    overflow: auto;
+    overflow: auto
 }
     .outsideLine {
     width:1850px;
     margin:0;
     padding:10px 25px;
-    border:5px solid white;
-}
-.rickey {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-    border: black;
-}
-.socialMedia {
-font-family: 'roboto';
+    border:5px solid;
+    color: white;
 }
