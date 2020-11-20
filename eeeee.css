@@ -16,7 +16,7 @@
 ::-webkit-scrollbar-track {
     background-color: black;
 }
-    body {
+body {
     background-color: black;
 }
     p {
@@ -44,4 +44,46 @@
     height: 250px;
     overflow: auto;
     color: white;
+}
+.rickey {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+       border: black;
+       margin-left: center;
+     
+    }
+.socialMedia {
+font-family: "Roboto";
+text-decoration: none;
+margin-left: 10px;
+transition-duration: .5s;
+}
+.socialMedia:hover:first-child {
+color: rgb(255, 0, 255);
+}
+.socialMedia:hover:last-child {
+color: rgb(255, 0, 255);
+}
+.socialMedia:first-child {
+color: purple;
+}
+.socialMedia:last-child {
+color: red;
+}
+.penis {
+border: none; 
+width: 100px;
+height: 100px; 
+display: inline-block; 
+background-color: red;
+transition-duration: .1s;
+box-shadow: 5px solid white;
+}
+.penis:active {
+transform: translateY(2px);
+background-color: rgb(255, 0, 255);
+}
+.penis:hover {
+cursor: pointer;
 }
