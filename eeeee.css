@@ -50,7 +50,6 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
        border: black;
-       margin-left: center;
      
     }
 .socialMedia {
@@ -78,11 +77,15 @@ height: 100px;
 display: inline-block; 
 background-color: red;
 transition-duration: .1s;
-box-shadow: 5px solid white;
+box-shadow: none;
+font-size: 30px;
+font-family: "Roboto";
 }
 .penis:active {
 transform: translateY(2px);
 background-color: rgb(255, 0, 255);
+color: white;
+width: 1000px;
 }
 .penis:hover {
 cursor: pointer;
