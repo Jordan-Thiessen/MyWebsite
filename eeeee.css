@@ -51,6 +51,7 @@ body {
     justify-content: space-evenly;
        border: black;
      resize: horizontal;
+    overflow: auto;
     }
 .socialMedia {
 font-family: "Roboto";
