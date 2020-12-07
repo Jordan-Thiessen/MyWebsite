@@ -50,7 +50,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
        border: black;
-     
+     resize: horizontal;
     }
 .socialMedia {
 font-family: "Roboto";
