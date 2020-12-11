@@ -46,6 +46,9 @@ body {
         animation: jordanswebsite 3s;
 
 }
+h2:hover {
+color: blue;
+}
 @keyframes jordanswebsite {
 from {font-color: red;}
 to {font-color: white;}
