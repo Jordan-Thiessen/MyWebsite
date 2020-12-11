@@ -41,12 +41,20 @@ body {
         align-items: center;
         position: relative;
         display: flex;
+        position: relative;
+        animation-direction: alternate;
+        animation: jordanswebsite 3s;
+        
+}
+@keyframes jordanswebsite {
+50% {font-color: red;}
+100% {font-color: white;}
 }
     .myBox {
     border: black;
     padding: 10px;
     font: 24px/36px 'Roboto';
-    width: 400px;
+    width: 33.3%px;
     height: 250px;
     overflow: auto;
     color: white;
@@ -99,8 +107,6 @@ cursor: pointer;
 }
 .para1 {
 border: 5px solid white;
+outline-color: red;
 width: 33.3%
-}
-.frontpageoutline {
-border: 5px solid white;
 }
