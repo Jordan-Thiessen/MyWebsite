@@ -23,6 +23,7 @@ body {
     font-family: 'roboto'; font-size: 22px;
     color: white;
     padding: 10px;
+    font-size: 20px;
 }
     h1 {
     font-family: 'roboto';
@@ -45,11 +46,20 @@ body {
     border: black;
     padding: 10px;
     font: 24px/36px 'Roboto';
-    width: 440px;
+    width: 33.3%px;
     height: 250px;
     overflow: auto;
     color: white;
+    font-size: 20px
 }
+.rickey {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+       border: black;
+     resize: horizontal;
+    overflow: auto;
+    }
 .socialMedia {
 font-family: "Roboto";
 text-decoration: none;
@@ -90,5 +100,5 @@ cursor: pointer;
 .para1 {
 border: 5px solid white;
 outline-color: red;
-width: 685px;
+width: 33.3%
 }
