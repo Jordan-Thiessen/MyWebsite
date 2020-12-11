@@ -58,20 +58,6 @@ font-family: "Roboto";
 text-decoration: none;
 margin-left: 10px;
 transition-duration: .5s;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-background: transparent;
-transition-duration: 500ms;
-color: white;
-display: flex;
-align-items: center;
-font-family: var(--font-main);
--moz-user-select: none;
--webkit-user-select: none;
-z-index: 99;
-display: inline-block;
 }
 .socialMedia:hover:first-child {
 color: rgb(255, 0, 255);
@@ -105,3 +91,4 @@ width: 1000px;
 .penis:hover {
 cursor: pointer;
 }
+
