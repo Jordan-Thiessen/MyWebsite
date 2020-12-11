@@ -31,11 +31,15 @@ body {
     padding: 10px;
 }
     h2 {
-    font-size: 60px; 
-    text-align: center;
-    font-family: 'roboto';
-    color: white;
-    height: 100vh;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'roboto';
+        color: white;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
 }
     .myBox {
     border: black;
