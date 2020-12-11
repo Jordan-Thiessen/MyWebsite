@@ -1,53 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <div class="outsideLine">
-    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> 
-        <link rel="stylesheet" href="eeeee.css">
-            <link rel="shortcut icon" href= "photo.jpg" type="image/jpeg">
-            
-        </head>
-<h2>Jordan's Testing Website</h2>
-<h1>Hello</h1>
-    <p>This is my first website so,<br>
-        it's just for <i>testing.</i></p>
-
-        <p>Here is a randon picture of a dog, that I found <br>
-            on the internet.</p>
-
-            <div class="ricky">
-                <img src=https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2018/08/dog-grass-441879.jpg?h=a77125df&itok=oA8hUTqS width="450" height="300" hspace="10">
-             <iframe width ="200" height ="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
-             </div>
-             
-</head>
-
- <Body>
-     <title>Jordan's Website</title>
-        <div class="myBox">
-        I'm really bad at programming so i'm testing.
-        Thank you Jack for helping me set the website up on github.
-        This website has almost nothing so I will add stuff in the future.
-        I know no one is going to see this, but the text before was <font color="red">TRASH.</font>
-        Oh and one more thing: 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    <img src =" https://stayhipp.com/wp-content/uploads/2019/03/ok.jpg" width="450" height="250">
-        </div>
-     <br>
-     <nav class="socialMedia" style="background: transparent; border-bottom: transparent;">
-    <div><a href="https://www.twitch.tv/notfunnyjordan_" class="socialMedia" style="background: transparent; border-bottom: transparent;">Twitch</a></div>
-    <div><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" class="socialMedia" style="background: transparent; border-bottom: transparent;">Instagram</a></div>
-    </nav>
-<button class="penis">Press</button>
-</div>
-    <div id="result"></div>
-
-</body>
- </html>
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 3px;
+    height: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b1b1b1;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #646464;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+body {
+    background-color: black;
+}
+    p {
+    font-family: 'roboto'; font-size: 22px;
+    color: white;
+    padding: 10px;
+}
+    h1 {
+    font-family: 'roboto';
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+    h2 {
+    font-size: 60px; 
+    text-align: center;
+    font-family: 'roboto';
+    color: white;
+}
+    .myBox {
+    border: black;
+    padding: 10px;
+    font: 24px/36px 'Roboto';
+    width: 440px;
+    height: 250px;
+    overflow: auto;
+    color: white;
+}
+.rickey {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+       border: black;
+     resize: horizontal;
+    overflow: auto;
+    }
+.socialMedia {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    transition-duration: 500ms;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-main);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    z-index: 99;
+display: inline-block;
+}
+.socialMedia:hover:first-child {
+color: rgb(255, 0, 255);
+}
+.socialMedia:hover:last-child {
+color: rgb(255, 0, 255);
+}
+.socialMedia:first-child {
+color: purple;
+}
+.socialMedia:last-child {
+color: red;
+}
+.penis {
+border: none; 
+width: 100px;
+height: 100px; 
+display: inline-block; 
+background-color: red;
+transition-duration: .1s;
+box-shadow: none;
+font-size: 30px;
+font-family: "Roboto";
+}
+.penis:active {
+transform: translateY(2px);
+background-color: rgb(255, 0, 255);
+color: white;
+width: 1000px;
+}
+.penis:hover {
+cursor: pointer;
+}
