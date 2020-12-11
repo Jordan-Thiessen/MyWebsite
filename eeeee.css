@@ -50,14 +50,6 @@ body {
     overflow: auto;
     color: white;
 }
-.rickey {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-       border: black;
-     resize: horizontal;
-    overflow: auto;
-    }
 .socialMedia {
 font-family: "Roboto";
 text-decoration: none;
@@ -98,4 +90,5 @@ cursor: pointer;
 .para1 {
 border: 5px solid white;
 outline-color: red;
+width: 685px;
 }
