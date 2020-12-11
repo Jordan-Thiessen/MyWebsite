@@ -44,11 +44,11 @@ body {
         position: relative;
         animation-direction: alternate;
         animation: jordanswebsite 3s;
-        
+
 }
 @keyframes jordanswebsite {
-50% {font-color: red;}
-100% {font-color: white;}
+from {font-color: red;}
+to {font-color: white;}
 }
     .myBox {
     border: black;
