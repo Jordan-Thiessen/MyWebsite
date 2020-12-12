@@ -3,6 +3,11 @@
 
 
 
+
+
+
+
+
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -119,4 +124,11 @@ cursor: pointer;
 border: 5px solid white;
 outline-color: red;
 width: 33.3%
+}
+.menu {
+border: 0;
+background-color: black;
+display: flex;
+top: 0;
+right: 0;
 }
