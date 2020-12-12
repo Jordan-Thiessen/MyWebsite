@@ -64,7 +64,7 @@ margin: 0;
 animation: jordanswebsite 3s alternate infinite;
 }
 h2:hover {
-font-size: 2000px;
+font-size: 0px;
 }
 @-webkit-keyframes jordanswebsite {
 from {font-color: red;}
