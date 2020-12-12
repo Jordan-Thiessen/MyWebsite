@@ -49,8 +49,8 @@ margin: 0;
 animation: jordanswebsite 3s alternate infinite;
 }
 @keyframes jordanswebsite {
-from {font-color: red;}
-to {font-color: white;}
+0% {font-color: red;}
+100% {font-color: white;}
 }
     .myBox {
     border: black;
