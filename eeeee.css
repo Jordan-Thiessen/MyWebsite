@@ -42,12 +42,11 @@ body {
         position: relative;
         display: flex;
         position: relative;
-        animation-direction: alternate;
-        animation: jordanswebsite 3s;
 
 }
-h2:hover {
-color: blue;
+h2 span{
+margin: 0;
+animation: jordanswebsite 3s alternate infinite;
 }
 @keyframes jordanswebsite {
 from {font-color: red;}
