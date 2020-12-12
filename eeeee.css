@@ -1,4 +1,8 @@
 
+
+
+
+
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -18,7 +22,7 @@
     background-color: black;
 }
 body {
-    background-color: white;
+    background-color: black;
 }
     p {
     font-family: 'roboto'; font-size: 22px;
@@ -50,7 +54,7 @@ margin: 0;
 animation: jordanswebsite 3s alternate infinite;
 }
 h2:hover {
-font-size: 2000px;
+text-shadow: 2px black;
 }
 @keyframes jordanswebsite {
 from {font-color: red;}
