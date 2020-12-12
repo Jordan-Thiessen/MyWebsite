@@ -8,6 +8,11 @@
 
 
 
+
+
+
+
+
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -92,14 +97,17 @@ transition-duration: .5s;
 .socialMedia:hover:first-child {
 color: rgb(255, 0, 255);
 }
-.socialMedia:hover:last-child {
+.socialMedia:hover:nth-child(2) {
 color: rgb(255, 0, 255);
 }
 .socialMedia:first-child {
 color: purple;
 }
-.socialMedia:last-child {
+.socialMedia:nth-child(2) {
 color: red;
+}
+.socialMedia:last-child {
+float: right;
 }
 .penis {
 border: none; 
