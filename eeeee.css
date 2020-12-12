@@ -1,23 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -112,7 +93,9 @@ color: purple;
 color: red;
 }
 .socialMedia:last-child {
-float: right;
+right: 0;
+border: 0;
+position: absolute;
 }
 .penis {
 border: none; 
@@ -137,11 +120,4 @@ cursor: pointer;
 border: 5px solid white;
 outline-color: red;
 width: 33.3%
-}
-.menu {
-border: 0;
-background-color: black;
-display: flex;
-top: 0;
-right: 0;
 }
