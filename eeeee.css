@@ -8,6 +8,11 @@
 
 
 
+
+
+
+
+
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -52,8 +57,7 @@ body {
         position: relative;
         display: flex;
         position: relative;
-        animation-duration: 1s;
-
+        transition-duration: 1s;
 }
 h2 span{
 margin: 0;
@@ -62,9 +66,9 @@ animation: jordanswebsite 3s alternate infinite;
 h2:hover {
 font-size: 2000px;
 }
-@keyframes jordanswebsite {
-0% {font-color: red;}
-100% {font-color: white;}
+@-webkit-keyframes jordanswebsite {
+from {font-color: red;}
+to {font-color: white;}
 }
     .myBox {
     border: black;
