@@ -3,7 +3,6 @@
 
 
 
-
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -102,6 +101,8 @@ right: 0;
 border: 0;
 position: absolute;
 margin-left: auto;
+color: white;
+background-color: black;
 }
 .penis {
 border: none; 
