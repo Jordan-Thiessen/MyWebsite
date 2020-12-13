@@ -8,6 +8,11 @@
 
 
 
+
+
+
+
+
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -121,16 +126,16 @@ color: #00acee;
 .socialMedia:hover:nth-child(7) {
 color: rgb(255, 0, 255);
 }
-.socialMedia:nth-child(6) {
+.socialMedia:nth-child(5) {
 color: red;
 }
-.socialMedia:hover:nth-child(6) {
+.socialMedia:hover:nth-child(5) {
 color:rgb(255, 0, 255);
 }
-.socialMedia:nth-child(5) {
+.socialMedia:nth-child(6) {
 color: #FF5700;
 }
-.socialMedia:hover:nth-child(5) {
+.socialMedia:hover:nth-child(6) {
 color: rgb(255, 0, 255)
 }
 .setting {
