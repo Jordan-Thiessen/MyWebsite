@@ -3,13 +3,18 @@
 
 
 
+
+
+
+
+
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
     height: 3px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -41,7 +46,7 @@ body {
         text-align: center;
         font-family: 'roboto';
         color: white;
-        height: 100vh;
+        height: 80vh;
         justify-content: center;
         align-items: center;
         position: relative;
@@ -83,6 +88,8 @@ font-family: "Roboto";
 text-decoration: none;
 margin-left: 10px;
 transition-duration: .5s;
+display: flex;
+align-items: center;
 }
 .socialMedia:hover:first-child {
 color: rgb(255, 0, 255);
@@ -96,17 +103,62 @@ color: purple;
 .socialMedia:nth-child(2) {
 color: red;
 }
-.socialMedia:last-child {
+.socialMedia:nth-child(4) {
+color: #7289da;
+}
+.socialMedia:hover:nth-child(4) {
+color: rgb(255, 0, 255);
+}
+.socialMedia:nth-child(3) {
+color: yellow;
+}
+.socialMedia:hover:nth-child(3) {
+color: rgb(255, 0, 255)
+}
+.socialMedia:nth-child(7) {
+color: #00acee;
+}
+.socialMedia:hover:nth-child(7) {
+color: rgb(255, 0, 255);
+}
+.socialMedia:nth-child(6) {
+color: red;
+}
+.socialMedia:hover:nth-child(6) {
+color:rgb(255, 0, 255);
+}
+.socialMedia:nth-child(5) {
+color: #FF5700;
+}
+.socialMedia:hover:nth-child(5) {
+color: rgb(255, 0, 255)
+}
+.setting {
 right: 0;
+border: 0;
+position: absolute;
+color: white;
+background-color: black;
+margin-right: 3px;
+transition-duration: 2s;
+display: block;
+}
+.socialMedia:last-child {
+    right: 0;
 border: 0;
 position: absolute;
 margin-left: auto;
 color: white;
 background-color: black;
-}
-#menu {
+    }
+.yeet {
 background-color: black;
 color: white;
+margin-left: auto;
+border: 0;
+}
+.yeet:hover {
+cursor: pointer;
 }
 .penis {
 border: none; 
@@ -132,3 +184,7 @@ border: 5px solid white;
 outline-color: red;
 width: 33.3%
 }
+.slow-spin {
+    -webkit-animation: fa-spin 5.5s infinite linear;
+    animation: fa-spin 5.5s infinite linear;
+    }
