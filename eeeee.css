@@ -2,11 +2,6 @@
 
 
 
-
-
-
-
-
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 3px;
@@ -200,13 +195,13 @@ width: 33.3%
 margin-top: 480px;
         transition-duration: 1s;
         animation-duration: 1s;
-        animation: info 3s infinite alternate;
+        animation: info 2s infinite alternate;
         transition-timing-function: ease-in;
     }
-    uselessinfo:hover {
+    .uselessinfo:hover {
     cursor: pointer;
     }
     @keyframes info {
-    0% {color: yellow;}
+    0% {color: yellow; text-shadow: 0 0 10px yellow;}
     100% {color: white;}
     }
