@@ -175,7 +175,8 @@ cursor: pointer;
 .para1 {
 border: 5px solid white;
 outline-color: red;
-width: 33.3%
+width: 33.3%;
+transform: translate(0, 100px);
 }
 .slow-spin {
     -webkit-animation: fa-spin 5.5s infinite linear;
