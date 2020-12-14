@@ -79,7 +79,6 @@ margin-left: 10px;
 transition-duration: .5s;
 display: flex;
 align-items: center;
-
 }
 .socialMedia:hover:first-child {
 color: rgb(255, 0, 255);
@@ -176,7 +175,7 @@ cursor: pointer;
 border: 5px solid white;
 outline-color: red;
 width: 33.3%;
-transform: translate(0, 100px);
+transform: translate(800px, 100px);
 }
 .slow-spin {
     -webkit-animation: fa-spin 5.5s infinite linear;
@@ -258,4 +257,15 @@ position: fixed;
 }
 .sizes {
 font-size: 24px;
+}
+#one {
+top: 0;
+position: absolute;
+transform: translate(-60px, -40px);
+}
+#tuwu {
+transform: translate(0, 2287px);
+}
+.setting2 {
+transform: translate(5px, 135px);
 }
